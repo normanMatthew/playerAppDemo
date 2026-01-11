@@ -34,7 +34,7 @@ export interface PlayerProfile {
     powerUps: number;
     keys: number;
 
-    //Metadata (The one click targets)
+    //Metadata (The "one click" targets)
     metadata: {
         avatars: string[]; //array of avatarIDs/URLs
         stamps: string[]; //array of stampIDs
