@@ -29,10 +29,12 @@ export interface PlayerProfile {
     vipExperience: number;
 
     //Currencies & Economy
-    tickets: number;
-    coins: number;
-    powerUps: number;
-    keys: number;
+    economy:{
+        tickets: number;
+        coins: number;
+        powerUps: number;
+        keys: number;
+    }
 
     //Metadata (The "one click" targets)
     metadata: {
